@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class ReceiveMessageActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "message";
-    public  static String text;
+    private static String text;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
